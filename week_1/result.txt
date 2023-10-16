@@ -1,0 +1,16 @@
+Pod a)
+  Solution found:
+  0.80, 1.25, 2.22, 3.50
+  Number of calls: 12256514045
+  Time of execution: 18 seconds
+
+Pod b)
+  Solution found:
+  0.80, 1.25, 2.22, 3.50
+  Number of calls: 47668350
+  Time of execution: 1 seconds
+
+Pod v)
+  Program pod b je brzi. 
+  Program pod b zove optimizacionu funkciju 47'668'350 puta, 
+  u razliku od programa pod a koji zove optimizacionu funkciju 12'256'514'045.

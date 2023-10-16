@@ -1,0 +1,11 @@
+Pod a) 
+  Best path for the first: 8 holes
+  1 3 6 8 7 5 4 2
+  Shortest path length: 60.4358
+  Time of execution: 0 seconds
+
+Pod b)
+  Best path for the first: 12 holes
+  12 11 10 8 6 3 1 2 4 5 7 9
+  Shortest path length: 114.774
+  Time of execution: 11 seconds
