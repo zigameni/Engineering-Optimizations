@@ -1,0 +1,4 @@
+Minimalna cena: 389
+( A E - E C - F H - G H - H J - I D - D C - C B - B J )
+
+Time of execution: 20 seconds

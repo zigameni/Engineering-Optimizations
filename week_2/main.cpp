@@ -125,7 +125,7 @@ double calculatePathLength(int* path, int length){
     distance += distanceMatrix[path[i]][path[i+1]];
   
   // for (int i = 0; i < length-1; i++)
-  //   distance += calculateDistance(points[path[i]], points[path[i+1]]);
+    // distance += calculateDistance(points[path[i]], points[path[i+1]]);
     
   return distance;
 }
@@ -151,7 +151,7 @@ void findTheShortestPath(int numberOfHoles){
     }
     
   }while(next_permutation(numberOfHoles, path));
-
+  
   cout << "Best path for the first: "<<numberOfHoles<<" holes"<<endl;
   for (int i = 0; i<numberOfHoles; i++ ) {
       cout << bestPath[i]+1 << " ";
@@ -159,7 +159,6 @@ void findTheShortestPath(int numberOfHoles){
 
   cout << "\nShortest path length: " << bestDistance << endl;
 }
-
 
 int main(void){
   int N = 12;
