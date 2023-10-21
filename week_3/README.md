@@ -12,7 +12,7 @@ You are tasked with connecting ten cities into a power distribution network, sub
 - Creating branching from one city to four or more cities incurs a penalty cost.
 - Find the optimal way to connect the cities using complete search to minimize the total cost of connections.
 
-![TSP Example](../media/ioa_zd_3.png)
+![City graph](../media/ioa_zd_3.png)
 
 ## Problem Input
 
@@ -35,7 +35,10 @@ int distanceMatrix[10][10] = {
 
 ## Approach
 
-The C++ code implements the approach mentioned in the README. It calculates the cost of each edge, generates sequences, maps sequences to trees, and performs a complete search to find the optimal solution.
+The C++ code implements the approach mentioned in the README. It calculates the cost of each edge, generates sequences, maps sequences to trees, and performs a complete search to find the optimal solution. Based on the formula for the best cost. 
+
+![cost formula](../media/ioa_zd_3_1.png)
+
 
 ## Code
 
