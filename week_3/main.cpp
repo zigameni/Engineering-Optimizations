@@ -1,3 +1,6 @@
+// Author: Gazmend Shehu
+// Date: [21/10/2023]
+
 #include <iostream>
 #include <ctime>
 
